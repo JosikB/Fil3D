@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'e:\Terminal\2I2D Projets\IHM\untitled.ui'
+# Form implementation generated from reading ui file 'e:\Terminal\2I2D Projets\IHM et Programme\untitled.ui'
 #
 # Created by: PyQt6 UI code generator 6.1.1
 #
@@ -58,6 +58,13 @@ class Ui_Form(object):
         self.label_7.setObjectName("label_7")
 
         self.retranslateUi(Form)
+        self.horizontalSlider.sliderMoved['int'].connect(Form.slidermanuel)
+        self.spinBox_2.valueChanged['int'].connect(Form.longueur)
+        self.pushButton_5.clicked.connect(Form.exit)
+        self.pushButton.clicked.connect(Form.OUIautomatique)
+        self.pushButton_2.clicked.connect(Form.NONautomatique)
+        self.pushButton_3.clicked.connect(Form.slidermanuel)
+        self.pushButton_4.clicked.connect(Form.demarrer)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
