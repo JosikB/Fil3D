@@ -10,7 +10,7 @@ Auteur: Axel CAHOREAU(axel.cahoreau.pro@gmail.com)
 Programme.py(Ɔ) 2022
 Description : Saisissez la description puis « Tab »
 Créé le :  vendredi 11 mars 2022, 9:10:35 
-Dernière modification : vendredi 11 mars 2022, 11:07:59
+Dernière modification : mardi 15 mars 2022, 17:01:53
 '''
 
 from PyQt6.QtWidgets import QApplication, QWidget
@@ -25,8 +25,8 @@ class Gestion_fil (QWidget, Ui_Form):
 
     # Insérez ici vos récepteurs (slot)
     
-    def machin():
-        pass
+    """def machin():
+        pass"""
     
 
 app = QApplication ([])
